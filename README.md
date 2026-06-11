@@ -36,3 +36,10 @@ npm start
 ```
 
 After deployment, create a room and send the room link to your friend once.
+
+
+## Auto-join fix
+This version auto-joins room links. If Player 1 sends:
+`https://your-app.onrender.com/?room=ABCDE`
+
+Player 2 opens it, enters their name, and joins the same room automatically.
